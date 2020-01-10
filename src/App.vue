@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="px-5 bg-mainBlack text-white">
+  <div id="app" class="container mx-auto px-5 bg-mainBlack text-white">
     <Header />
     <Hero />
     <About />
@@ -44,5 +44,6 @@ export default {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #02001b;
 }
 </style>
